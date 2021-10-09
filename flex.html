@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right top, #ed9b1b, #cebb44, #b6d37a, #ade3af, #bdefdb, #baf2e0, #b6f5e5, #b3f8eb, #89f5d0, #6eefa9, #68e777, #75dc33);
+        }
+        
+        .wrapper h1{
+            text-align: center;
+        }
+        .img-area{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .single-img{
+            padding:20px;
+            margin: 20px;
+        }
+        img{
+            width: 300px;
+            border-radius: 20px;
+            height: 450px;
+        }
+        img:hover{
+            opacity: 0.5;
+            width: 350px;
+            height: 550px;
+
+        }
+        .name{
+            font-size: 30px;
+        }
+        .ques{
+            text-align: center;
+            font-size: 45px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p class="name">Submitted By: <b>Vikas Kumar Gond , 2006116</b></p>
+    <hr>
+    <div class="wrapper">
+        <p class="ques">Ques2. Create a Flex and use images in it .</p>
+        <div class="img-area">
+            <div class="single-img"><img src="image/bhagatsingh.jpg" alt="BhagatSingh"></div>
+            <div class="single-img"><img src="image/sukhdev.jpg" alt="SukhDev"></div>
+            <div class="single-img"><img src="image/rajguru.jpg" alt="rajguru"></div>
+            <div class="single-img"><img src="image/azad.jpg" alt="azad"></div>
+            <div class="single-img"><img src="image/bose.jpg" alt="Subhash CHandra Bose"></div>
+            <div class="single-img"><img src="image/udham.jpg" alt="Udham Singh"></div>
+            <div class="single-img"><img src="image/gandhi.jpeg" alt="Gandhi"></div>
+            <div class="single-img"><img src="image/mangalpandey.jpg" alt="mangalpandey"></div>
+            <div class="single-img"><img src="image/lajpatrai.jpg" alt="lala Lajpat Ri"></div>
+            <div class="single-img"><img src="image/laxmibsi.jpg" alt="laxmi bai"></div>
+            <div class="single-img"><img src="image/brambedkar.jpg" alt="B R Ambedkar"></div>
+            <div class="single-img"><img src="image/sardarpatel.jpg" alt="Sardar Patel"></div>
+        </div>
+    </div>
+</body>
+</html>
